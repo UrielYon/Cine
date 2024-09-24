@@ -1,0 +1,25 @@
+/*Selector universal*/
+*{
+    margin: 0;/*Espacio exterior*/
+    padding: 0;/*Espacion interior*/
+    box-sizing: border-box;
+}
+
+/*Selector de tipo etiqueta*/
+body{
+    background-color: rgb(252,227,180);
+    font-family: Arial, sans-serif;/*Tipografia*/
+    line-height: 1.5; /*Interlineado*/
+}
+.contenedor{
+    width: 80%;
+}
+
+header{
+    background-color: rgb(252,227,180);
+}
+
+/*Selector de tipo clase*/
+.estilo{
+    background-color: aliceblue;
+}
